@@ -282,10 +282,13 @@ make valgrind
 
 <div align="center">
 
-**⭐ Se este projeto foi útil, considere dar uma estrela! ⭐**
+### ⭐ Apoie este projeto!
 
-[![GitHub stars](https://img.shields.io/github/stars/danielbarbieri/batalha-naval-profissional.svg?style=social&label=Star)](https://github.com/DanielBarbieri21/Jogo_Batalha_Naval)
-[![GitHub forks](https://img.shields.io/github/forks/danielbarbieri/batalha-naval-profissional.svg?style=social&label=Fork)](https://github.com/DanielBarbieri21/Jogo_Batalha_Naval/fork)
+Se este projeto foi útil, considere dar uma **estrela** 🌟
 
+[![GitHub stars](https://img.shields.io/github/stars/DanielBarbieri21/Jogo_Batalha_Naval.svg?style=social&label=Star)](https://github.com/DanielBarbieri21/Jogo_Batalha_Naval)
+[![GitHub forks](https://img.shields.io/github/forks/DanielBarbieri21/Jogo_Batalha_Naval.svg?style=social&label=Fork)](https://github.com/DanielBarbieri21/Jogo_Batalha_Naval/fork)
 
 </div>
+
+
