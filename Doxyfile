@@ -1,0 +1,193 @@
+# Doxyfile para Batalha Naval - Versão Profissional
+
+# Configuração do Doxygen para gerar documentação automática
+
+# Nome do projeto
+PROJECT_NAME           = "Batalha Naval - Versão Profissional"
+PROJECT_NUMBER         = "2.0"
+PROJECT_BRIEF          = "Implementação completa e profissional do clássico jogo Batalha Naval"
+
+# Informações do autor
+AUTHOR                 = "Daniel Barbieri Dev"
+AUTHOR_EMAIL           = "daniel@barbieri.dev"
+
+# Idioma da documentação
+OUTPUT_LANGUAGE        = Portuguese
+
+# Diretórios de entrada
+INPUT                  = . \
+                         src/ \
+                         assets/
+
+# Padrões de arquivos
+FILE_PATTERNS          = *.c \
+                         *.h \
+                         *.md
+
+# Recursão nos diretórios
+RECURSIVE              = YES
+
+# Diretório de saída
+OUTPUT_DIRECTORY       = docs/
+
+# Formato de saída
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_XML           = YES
+GENERATE_RTF           = NO
+
+# Configurações do HTML
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+HTML_COLORSTYLE_HUE    = 220
+HTML_COLORSTYLE_SAT    = 100
+HTML_COLORSTYLE_GAMMA  = 80
+
+# Configurações de extração
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = YES
+
+# Configurações de call graphs
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+# Configurações de diagramas
+HAVE_DOT               = YES
+DOT_FONTNAME           = Arial
+DOT_FONTSIZE           = 10
+DOT_GRAPH_MAX_NODES    = 50
+
+# Configurações de navegação
+DISABLE_INDEX          = NO
+GENERATE_TREEVIEW      = YES
+FULL_SIDEBAR           = YES
+
+# Configurações de busca
+SEARCHENGINE           = YES
+SERVER_BASED_SEARCH    = NO
+
+# Configurações de warnings
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES
+
+# Configurações de otimização
+OPTIMIZE_OUTPUT_FOR_C  = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+PREDEFINED             = 
+
+# Configurações de versão
+VERSION_FILTER         = 
+FILTER_SOURCE_FILES    = NO
+FILTER_SOURCE_PATTERNS = 
+
+# Configurações de input
+USE_MDFILE_AS_MAINPAGE = README.md
+MARKDOWN_SUPPORT       = YES
+AUTOLINK_SUPPORT       = YES
+
+# Configurações de layout
+LAYOUT_FILE            = 
+CITE_BIB_FILES         = 
+
+# Configurações de aliases
+ALIASES                = "note=\par Nota:\n" \
+                         "warning=\par Aviso:\n" \
+                         "todo=\par TODO:\n" \
+                         "bug=\par Bug:\n"
+
+# Configurações de tags
+TAGFILES               = 
+GENERATE_TAGFILE        = 
+ALLEXTERNALS           = NO
+EXTERNAL_GROUPS        = YES
+EXTERNAL_PAGES         = YES
+PERL_PATH              = /usr/bin/perl
+
+# Configurações de classes
+CLASS_DIAGRAMS         = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+HIDE_FRIEND_COMPOUNDS  = NO
+HIDE_IN_BODY_DOCS     = NO
+INTERNAL_DOCS          = NO
+CASE_SENSE_NAMES       = NO
+HIDE_SCOPE_NAMES       = NO
+SHOW_INCLUDE_FILES     = YES
+SHOW_GROUPED_MEMB_INC  = NO
+FORCE_LOCAL_INCLUDES   = NO
+INLINE_INFO            = YES
+SORT_MEMBER_DOCS       = YES
+SORT_BRIEF_DOCS        = NO
+SORT_MEMBERS_CTORS_1ST = NO
+SORT_GROUP_NAMES       = NO
+SORT_BY_SCOPE_NAME     = NO
+STRICT_PROTO_MATCHING  = NO
+GENERATE_DEPRECATEDLIST= YES
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+SEARCH_INCLUDES        = YES
+INCLUDE_PATH           = 
+INCLUDE_FILE_PATTERNS  = 
+PREDEFINED             = 
+EXPAND_AS_DEFINED      = 
+SKIP_FUNCTION_MACROS   = YES
+
+# Configurações de templates
+TEMPLATE_RELATIONS     = NO
+REFERENCES_RELATION    = NO
+REFERENCES_LINK_SOURCE = YES
+SOURCE_TOOLTIPS        = YES
+USE_HTAGS              = NO
+VERBATIM_HEADERS       = YES
+
+# Configurações de clang
+CLANG_ASSISTED_PARSING = NO
+CLANG_ADD_INC_PATHS    = YES
+CLANG_OPTIONS          = 
+CLANG_DATABASE_PATH    = 
+
+# Configurações de extração
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_PACKAGE        = NO
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = NO
+EXTRACT_ANON_NSPACES   = NO
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+HIDE_FRIEND_COMPOUNDS  = NO
+HIDE_IN_BODY_DOCS      = NO
+INTERNAL_DOCS          = NO
+CASE_SENSE_NAMES       = NO
+HIDE_SCOPE_NAMES       = NO
+HIDE_COMPOUND_REFERENCE= NO
+SHOW_HEADERFILE        = YES
+SHOW_INCLUDE_FILES     = YES
+SHOW_GROUPED_MEMB_INC  = NO
+FORCE_LOCAL_INCLUDES   = NO
+INLINE_INFO            = YES
+SORT_MEMBER_DOCS       = YES
+SORT_BRIEF_DOCS        = NO
+SORT_MEMBERS_CTORS_1ST = NO
+SORT_GROUP_NAMES       = NO
+SORT_BY_SCOPE_NAME     = NO
+STRICT_PROTO_MATCHING  = NO
+GENERATE_DEPRECATEDLIST= YES
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+SEARCH_INCLUDES        = YES
+INCLUDE_PATH           = 
+INCLUDE_FILE_PATTERNS  = 
+PREDEFINED             = 
+EXPAND_AS_DEFINED      = 
+SKIP_FUNCTION_MACROS   = YES

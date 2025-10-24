@@ -1,0 +1,71 @@
+# Arquivos compilados
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Diretórios de build
+obj/
+bin/
+build/
+dist/
+
+# Arquivos de configuração local
+config.dat
+stats.dat
+*.save
+*.backup
+
+# Arquivos temporários
+*.tmp
+*.temp
+*~
+
+# Arquivos de log
+*.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de documentação gerada
+docs/html/
+docs/latex/
+docs/xml/
+
+# Arquivos de backup
+*.bak
+*.orig
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Arquivos de valgrind
+valgrind-*.log
+
+# Arquivos de cppcheck
+cppcheck-*.txt
+
+# Arquivos de teste
+test_*.c
+*_test.c
+
+# Arquivos de pacote
+*.tar.gz
+*.zip
+*.rar
+
+# Arquivos de configuração do sistema
+.cache/
+.config/
